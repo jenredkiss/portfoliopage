@@ -128,3 +128,36 @@ window.onload = function() {
     document.body.appendChild(css);
 };
 
+
+//Scroll Reveal Animation
+
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '150px',
+    duration: 2000,
+    reset: true
+
+})
+
+//Scroll Home
+
+sr.reveal('.home_title', {delay: 400})
+sr.reveal('.home_data', {delay: 200})
+sr.reveal('.home_img', {origin:'right', delay: 400})
+
+
+// Scroll About
+
+sr.reveal('.about_img', {origin:'left', delay: 400})
+sr.reveal('.about_data', {origin:'right', delay: 400})
+
+// Scroll Skills
+sr.reveal('.skills_subtitle', {delay: 400})
+sr.reveal('.skills_data', {origin:'left', delay: 400, interval: 100})
+
+//Scroll Experience
+sr.reveal('.experience_data', {delay: 400, interval: 200})
+
+//Scroll Portfolio
+sr.reveal('.portfolio_content', {delay: 400, interval: 200})
+
