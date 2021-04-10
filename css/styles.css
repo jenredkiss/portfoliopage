@@ -216,14 +216,7 @@ img{
 .scroll-header{
     box-shadow: 0 1px 4px rgba(0,0,0,.1);
 }
-/*Change background header size*/
 
-.scroll-resize{
-    height: var(--header-height) !important;
-    font-size: var(--small-font-size);
-    transition: 0.5s;
-    max-width: 1235px;
-}
 
 /*-------scroll top ---------*/
 
@@ -569,6 +562,14 @@ a.typewrite.home_title{
         grid-template-columns: repeat(2, 1fr);
     }
     
+/*Change background header size*/
+
+    .scroll-resize{
+        height: var(--header-height) !important;
+        font-size: var(--small-font-size);
+        transition: 0.5s;
+        max-width: 1235px;
+    }
 
 
 }
