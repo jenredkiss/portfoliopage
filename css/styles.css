@@ -285,7 +285,7 @@ img{
     margin-bottom: var(--mb-3);
 }
 .home_data p{
-    margin: 10px;
+    margin: 32px 0px 32px 0px;
 }
 .home_data{
     text-align: center;
