@@ -170,3 +170,11 @@ sr.reveal('.experience_data', {origin: 'left', delay: 400, interval: 200})
 //Scroll Portfolio
 sr.reveal('.portfolio_content', {origin: 'bottom', delay: 400, interval: 200})
 
+
+//Spinner Section
+let spinnerWrapper = document.querySelector('.spinner-wrapper');
+
+window.addEventListener('load', function () {
+    // spinnerWrapper.style.display = 'none';
+    spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+});
