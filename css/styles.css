@@ -364,7 +364,7 @@ a.typewrite.home_title{
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin: 0 var(--mb-2);
+/*  margin: 0 var(--mb-2); */
     margin-bottom: var(--mb-4);
     z-index: -100;  
     
