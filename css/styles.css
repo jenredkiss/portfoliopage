@@ -650,6 +650,7 @@ a.typewrite.home_title{
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 200;
     background-color: #000000;
 }
 
@@ -658,7 +659,7 @@ a.typewrite.home_title{
     position: relative;
     width: 80px;
     height: 80px;
-    z-index: 200;
+    z-index: 202;
   }
   .lds-ellipsis div {
     position: absolute;
