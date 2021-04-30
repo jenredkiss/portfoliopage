@@ -165,7 +165,7 @@ sr.reveal('.skills_subtitle', {delay: 400})
 sr.reveal('.skills_data', {origin:'left', delay: 400, interval: 200})
 
 //Scroll Experience
-sr.reveal('.experience_data', {origin: 'left', delay: 400, interval: 200})
+sr.reveal('.experience_data', {origin: 'bottom', delay: 400, interval: 200})
 
 //Scroll Portfolio
 sr.reveal('.portfolio_content', {origin: 'bottom', delay: 400, interval: 200})
