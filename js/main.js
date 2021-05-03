@@ -170,6 +170,9 @@ sr.reveal('.experience_data', {origin: 'bottom', delay: 400, interval: 200})
 //Scroll Portfolio
 sr.reveal('.portfolio_content', {origin: 'bottom', delay: 400, interval: 200})
 
+//Scroll Portfolio
+sr.reveal('.content_holder_single', {origin: 'bottom', delay: 400, interval: 200})
+
 
 //Spinner Section
 let spinnerWrapper = document.querySelector('.spinner-wrapper');
