@@ -16,7 +16,7 @@ showMenu('nav-toggle', 'nav-menu')
 
 // Change the toggle menu from grid to x
 var test = document.getElementById("MyId");
-const clickMe = test.addEventListener('click', myFunction);
+
 
 function myFunction() {
 
