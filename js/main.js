@@ -15,10 +15,8 @@ showMenu('nav-toggle', 'nav-menu')
 
 
 // Change the toggle menu from grid to x
-var test = document.getElementById("MyId");
-
-
 function myFunction() {
+var test = document.getElementById("MyId");
 
 if (test.classList.contains("bx-grid-alt")) {
     test.classList.remove("bx-grid-alt");
