@@ -13,6 +13,25 @@ const showMenu = (toggleId, navId) => {
 showMenu('nav-toggle', 'nav-menu')
 
 
+
+// Change the toggle menu from grid to x
+var test = document.getElementById("MyId");
+const clickMe = test.addEventListener("click", myFunction);
+
+function myFunction() {
+
+if (test.classList.contains("bx-grid-alt")) {
+    test.classList.remove("bx-grid-alt");
+    test.classList.add("bx-x");
+    
+}
+else{
+    test.classList.add("bx-grid-alt");
+    test.classList.remove("bx-x");
+}
+}
+
+
 /*-----Remove Menu Mobile-----*/
 
 const navLink = document.querySelectorAll('.nav_link')
